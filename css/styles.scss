@@ -1,0 +1,13 @@
+
+// WHY NO WORK??
+$primaryColor: blue;
+@function tint($color, $perc) {
+    @return mix (#fff, $color, $perc);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: tint($primaryColor, 50%);
+}
+
